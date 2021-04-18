@@ -9,6 +9,7 @@ import { SignupComponent } from './Components/signup/signup.component';
 import { SigninComponent } from './Components/signin/signin.component';
 import { ImageViewComponent } from './Components/image-view/image-view.component';
 import { CardComponent } from './Core/card/card.component';
+import { UploadImageComponent } from './Components/upload-image/upload-image.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardComponent } from './Core/card/card.component';
     SigninComponent,
 
     ImageViewComponent,
-     CardComponent
+     CardComponent,
+     UploadImageComponent
   ],
   imports: [
     BrowserModule,

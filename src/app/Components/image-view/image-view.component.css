@@ -1,10 +1,4 @@
-.imageview__body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
+/*
 .imageview__btn {
   border: none !important;
   transition: 0.5s all ease-in-out;
@@ -102,4 +96,136 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+} */
+
+.imageview__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-sm-4 {
+  margin-top: 15px;
+}
+
+.card {
+  transition: 0.5s ease-in-out;
+  max-height: auto;
+  object-fit: contain !important;
+  border: none;
+  position: relative;
+  margin-top: 10px;
+}
+
+.card-img {
+  height: 280px;
+  width: 260px;
+}
+
+.card:hover {
+  transform: translateY(5px);
+  border: none;
+}
+
+.card-caption {
+  opacity: 0;
+  display: absolute;
+  flex-direction: column;
+  transition: 0.5s all;
+}
+
+.card-img-top {
+  display: block;
+}
+
+.card-caption {
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  transition: all 0.5s ease-in;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-caption {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  /* transition: 0.5s ease; */
+  /* background-color: #39383900; */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.514),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.card:hover .card-caption {
+  opacity: 1;
+}
+
+.card-caption-text {
+  color: white;
+  font-size: 20px;
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: 250px;
+}
+
+#maintitle {
+  color: black;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.modalImageDialog {
+  max-width: fit-content;
+  border: none !important;
+}
+
+.modalBlock {
+  padding: 0 !important;
+  max-height: 600px;
+  max-width: auto;
+}
+
+.modalImage {
+  height: 600px;
+  width: auto;
+  max-width: 1000px;
+}
+
+.modalBlock:hover .card-caption {
+  opacity: 1;
 }

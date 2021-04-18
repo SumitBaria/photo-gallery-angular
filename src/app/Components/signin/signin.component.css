@@ -1,4 +1,4 @@
-.signin__main {
+/* .signin__main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,4 +75,78 @@
   color: rgb(228, 228, 228);
   transition: 0.3s all ease-in-out;
   margin: 10px 0px;
+} */
+
+.signin__main {
+  overflow-y: hidden;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#createform {
+  display: block;
+  width: 350px;
+  height: auto;
+  background-color: whitesmoke;
+  border: none;
+  padding: 10px;
+  border-radius: 50px 20px;
+  min-width: max-content;
+  color: rgb(36, 36, 36);
+  transform: rotate(0deg);
+  box-shadow: 15px 15px 10px 10px rgb(36, 36, 36);
+  margin-top: 25px;
+}
+
+#sub-two {
+  margin-top: 50px;
+  transform: rotate(-40deg);
+}
+
+#sub-one {
+  transform: rotate(30deg);
+}
+.card {
+  background-color: whitesmoke;
+  width: min-content !important;
+  height: max-content !important;
+  padding: 0% !important;
+}
+.mobile {
+  display: flex;
+}
+
+.first-card {
+  width: 280px;
+}
+#second-one {
+  margin-top: 15px;
+  transform: rotate(40deg);
+}
+#second-two {
+  margin-top: 50px;
+  margin-right: 50px;
+  transform: rotate(-40deg);
+}
+.second-card {
+  width: 300px;
+}
+
+.card-img {
+  width: 300px;
+  height: 400px;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    display: none;
+  }
+}
+
+.signup-header {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: darkblue;
 }

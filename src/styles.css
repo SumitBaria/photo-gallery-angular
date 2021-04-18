@@ -1,10 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-
-.home__main,
-.signin__main,
-.signup__main {
-  background-image: url(./assets/Static/backgroundImage.jpeg);
+@import "../node_modules/font-awesome/css/font-awesome.min.css";
+.home__main {
+  background-image: url(./assets/Static/Back.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
@@ -15,7 +13,9 @@
   height: 100vh;
 }
 
-.imageview__main {
+.imageview__main,
+.signin__main,
+.signup__main {
   background-image: url(./assets/Static/Website-Background-Web.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -24,5 +24,5 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 100vmin;
 }
