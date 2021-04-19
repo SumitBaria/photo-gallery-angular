@@ -10,12 +10,11 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
 }
 
 .imageview__main,
 .signin__main,
-.signup__main {
+.signup__main,.setting_main {
   background-image: url(./assets/Static/Website-Background-Web.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;

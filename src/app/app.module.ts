@@ -10,6 +10,8 @@ import { SigninComponent } from './Components/signin/signin.component';
 import { ImageViewComponent } from './Components/image-view/image-view.component';
 import { CardComponent } from './Core/card/card.component';
 import { UploadImageComponent } from './Components/upload-image/upload-image.component';
+import { IndexheaderComponent } from './Components/indexheader/indexheader.component';
+import { ProfileSettingComponent } from './Components/profile-setting/profile-setting.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { UploadImageComponent } from './Components/upload-image/upload-image.com
 
     ImageViewComponent,
      CardComponent,
-     UploadImageComponent
+     UploadImageComponent,
+     IndexheaderComponent,
+     ProfileSettingComponent
   ],
   imports: [
     BrowserModule,
