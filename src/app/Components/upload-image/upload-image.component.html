@@ -22,7 +22,7 @@
         </div>
         <div class="modal-body">
 
-          <input type="file" class="form-control uploadImage" placeholder="Upload Image">
+          <input type="file" class="form-control uploadImage" (change)="selectImage($event)" placeholder="Upload Image">
           <input type="text" class="form-control uploadCaption " placeholder="Caption">
           <div class="uploadButtons">
             <button type="button" class="btn btn-outline-secondary " data-dismiss="modal">Close</button>

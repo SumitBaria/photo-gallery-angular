@@ -10,7 +10,8 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .imageview__main,
